@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "835634079271",
+    "project_id": "usefood-7bc09",
+    "storage_bucket": "usefood-7bc09.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835634079271:android:00e68f63c7a975bf32d002",
+        "android_client_info": {
+          "package_name": "mycompany.usefood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835634079271-nb73ntu63895bunk830njshpulnu9jg2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4IdKn3k9cwkcy-syE47P9kUSSdXNNk9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835634079271-nb73ntu63895bunk830njshpulnu9jg2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "835634079271-j2ffoj8g4sbu1dpddsa7l2gut298em0a.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "mycompany.usefood"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

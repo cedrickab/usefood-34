@@ -1,0 +1,140 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "product_collection",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "is_visible",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "user_email",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "alerts",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "product_collection",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "is_favorite",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "is_visible",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "user_email",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "alerts",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "product_collection",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "categorie",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "is_visible",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "user_email",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "alerts",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "product_collection",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "categorie",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "is_visible",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "user_email",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "expiration_date",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "product_collection",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "is_visible",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "user_email",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "added_time",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "product_collection",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "is_visible",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "departement",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "user_email",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "expiration_date",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": [
+    {
+      "collectionGroup": "fcm_tokens",
+      "fieldPath": "fcm_token",
+      "indexes": [
+        {
+          "order": "ASCENDING",
+          "queryScope": "COLLECTION_GROUP"
+        }
+      ]
+    }
+  ]
+}
